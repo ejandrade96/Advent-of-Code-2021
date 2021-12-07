@@ -7,7 +7,16 @@ namespace Dia01_varredura_do_sonar
   {
     static void Main(string[] args)
     {
-      Desafio desafio = new Parte1();
+      Console.WriteLine("Desafio do 1º dia: Você gostaria da resposta da primeira ou segunda parte? (Por favor, digite apenas 1 ou 2)");
+      var parte = int.Parse(Console.ReadLine());
+      Desafio desafio;
+
+      if (parte == 1)
+        desafio = new DesafioParte1();
+
+      else
+        desafio = new DesafioParte2();
+
       var resultado = desafio.Resolver();
 
       Console.WriteLine(resultado);
