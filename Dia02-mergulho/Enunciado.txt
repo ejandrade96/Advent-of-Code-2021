@@ -1,0 +1,33 @@
+---- Dia 2: Mergulho! ----
+
+Agora, você precisa descobrir como pilotar isso .
+
+Parece que o submarino pode tomar uma série de comandos como forward 1, down 2ou up 3:
+
+forward X aumenta a posição horizontal em X unidades.
+down X aumenta a profundidade em X unidades.
+up X diminui a profundidade em X unidades.
+Observe que, como você está em um submarino down e up afeta sua profundidade, eles têm o resultado oposto do que você esperava.
+
+O submarino parece já ter um curso planejado (sua entrada no quebra-cabeça). Você provavelmente deve descobrir para onde está indo. Por exemplo:
+
+forward 5
+down 5
+forward 8
+up 3
+down 8
+forward 2
+
+Sua posição horizontal e profundidade começam em 0. As etapas acima os modificariam da seguinte maneira:
+
+forward 5 adiciona 5 à sua posição horizontal um total de 5.
+down 5 adiciona 5 à sua profundidade, resultando em um valor de 5.
+forward 8 adiciona 8 à sua posição horizontal um total de 13.
+up 3 diminui sua profundidade em 3, resultando em um valor de 2.
+down 8 adiciona 8 à sua profundidade, resultando em um valor de 10.
+forward 2 adiciona 2 à sua posição horizontal um total de 15.
+Depois de seguir essas instruções, você teria uma posição horizontal de 15e uma profundidade de 10. (Multiplicando-os produz 150.)
+
+Calcule a posição horizontal e a profundidade que você teria após seguir o curso planejado. O que você ganha se multiplicar sua posição horizontal final pela profundidade final?
+
+Para começar, obtenha informações sobre o quebra-cabeça. (path: Dados/instrucoes-submarino.txt)
