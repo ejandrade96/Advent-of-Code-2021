@@ -1,4 +1,4 @@
-#### Dia 3: Diagnóstico Binário ---
+### Dia 3: Diagnóstico Binário
 
 O submarino tem feito alguns ruídos estranhos , então você pede a ele para produzir um relatório de diagnóstico para o caso.
 
@@ -8,20 +8,22 @@ Você precisa usar os números binários no relatório de diagnóstico para gera
 
 Cada bit na taxa gama pode ser determinado encontrando o bit mais comum na posição correspondente de todos os números no relatório de diagnóstico. Por exemplo, dado o seguinte relatório de diagnóstico:
 
-00100
-11110
-10110
-10111
-10101
-01111
-00111
-11100
-10000
-11001
-00010
+00100\
+00100\
+11110\
+00100\
+10110\
+10111\
+10101\
+01111\
+00111\
+11100\
+10000\
+11001\
+00010\
 01010
 
-Considerando apenas o primeiro bit de cada número, existem cinco 0bits e sete 1bits. Como o bit mais comum é 1, o primeiro bit da taxa gama é 1.
+Considerando apenas o primeiro bit de cada número, existem cinco 0 bits e sete 1 bits. Como o bit mais comum é 1, o primeiro bit da taxa gama é 1.
 
 O segundo bit mais comum dos números no relatório de diagnóstico é 0, portanto, o segundo bit da taxa gama é 0.
 
