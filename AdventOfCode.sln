@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia01-varredura-do-sonar", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia02-mergulho", "Dia02-mergulho\Dia02-mergulho.csproj", "{502E3C7F-F5DC-438C-823A-0FD27075B357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia03-diagnostico-binario", "Dia03-diagnostico-binario\Dia03-diagnostico-binario.csproj", "{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{502E3C7F-F5DC-438C-823A-0FD27075B357}.Release|x64.Build.0 = Release|Any CPU
 		{502E3C7F-F5DC-438C-823A-0FD27075B357}.Release|x86.ActiveCfg = Release|Any CPU
 		{502E3C7F-F5DC-438C-823A-0FD27075B357}.Release|x86.Build.0 = Release|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Debug|x64.Build.0 = Debug|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Debug|x86.Build.0 = Debug|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Release|x64.ActiveCfg = Release|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Release|x64.Build.0 = Release|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Release|x86.ActiveCfg = Release|Any CPU
+		{044B56C3-E7A3-4E1C-8D81-1E3B03BDFFA2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
