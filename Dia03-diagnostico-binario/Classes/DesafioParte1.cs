@@ -1,25 +1,21 @@
 using System;
-using System.IO;
 
 namespace Dia03_diagnostico_binario.Classes
 {
-  public class DesafioParte1
+  public class DesafioParte1 : Desafio
   {
-    public void Resolver()
+    public override string Resolver()
     {
-      string[] diagnosticoEmBinario = File.ReadAllLines("./Dados/relatorio-de-diagnostico.txt");
-      var qtdBitsPorNumero = diagnosticoEmBinario[0].Length;
-
       var taxaGama = "";
       var taxaEpsilon = "";
       var qtdBit0 = 0;
       var qtdBit1 = 0;
 
-      for (var i = 0; i < qtdBitsPorNumero; i++)
+      for (var i = 0; i < QuantidadeBitsPorNumero; i++)
       {
-        for (var j = 0; j < diagnosticoEmBinario.Length; j++)
+        for (var j = 0; j < RelatorioDiagnosticoEmBinario.Length; j++)
         {
-          var numeroBinario = diagnosticoEmBinario[j];
+          var numeroBinario = RelatorioDiagnosticoEmBinario[j];
           var bit = numeroBinario[i].ToString();
 
           if (bit == "0")
@@ -44,7 +40,7 @@ namespace Dia03_diagnostico_binario.Classes
         qtdBit1 = 0;
       }
 
-      Console.WriteLine($"O resultado da 1º parte do desafio é: {Convert.ToInt32(taxaGama, 2) * Convert.ToInt32(taxaEpsilon, 2)}");
+      return $"O resultado da 1º parte do desafio é: {Convert.ToInt32(taxaGama, 2) * Convert.ToInt32(taxaEpsilon, 2)}";
     }
   }
 }
