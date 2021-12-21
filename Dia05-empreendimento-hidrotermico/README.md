@@ -24,4 +24,4 @@ Para evitar as áreas mais perigosas, você precisa determinar **o número de po
 
 Considere apenas linhas horizontais e verticais. **Em quantos pontos pelo menos duas linhas se sobrepõem?**
 
-Para começar, **obtenha informações sobre o quebra-cabeça**. (path: Dados/.txt)
+Para começar, **obtenha informações sobre o quebra-cabeça**. (path: Dados/coordenadas.txt)
