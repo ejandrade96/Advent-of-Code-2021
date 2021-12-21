@@ -6,7 +6,7 @@ Você mal alcança a segurança da caverna quando a baleia se choca contra a boc
 
 Cada dígito de um display de sete segmentos é renderizado ligando ou desligando qualquer um dos sete segmentos nomeados **a** através de **g**:
 
-IMAGE
+![1](https://user-images.githubusercontent.com/57911863/146971541-36f24196-a5d7-4c10-9f2d-a2db8c8eeb99.png)
 
 Portanto, para renderizar a **1**, apenas os segmentos **c** e **f** seriam ativados; o resto estaria desligado. Para renderizar uma **7**, apenas os segmentos **a**, **c** e **f** seria ligado.
 
@@ -18,7 +18,7 @@ Para cada exibição, você observa a mudança dos sinais por um tempo, anota **
 
 Por exemplo, aqui está o que você pode ver em uma única entrada em suas notas:
 
-IMAGE
+![2](https://user-images.githubusercontent.com/57911863/146971555-1ad5f08d-6d5c-42aa-a32c-8935a7beb341.png)
 
 (A entrada é quebrada aqui em duas linhas para que se encaixe; em suas notas, tudo estará em uma única linha.)
 
@@ -28,7 +28,7 @@ Usando essas informações, você deve ser capaz de descobrir qual combinação 
 
 Por enquanto, **concentre-se nos dígitos fáceis**. Considere este exemplo maior:
 
-IMAGE
+![3](https://user-images.githubusercontent.com/57911863/146971565-3c03aa14-2728-44d8-9fe9-5fad2d396b5e.png)
 
 Porque os dígitos **1**, **4**, **7**, e **8** cada uso de um número único de segmentos, você deve ser capaz de dizer quais combinações de sinais correspondem aos dígitos. Contando **apenas dígitos nos valores de saída** (a parte depois **|** de cada linha), no exemplo acima, há **26** instâncias de dígitos que usam um número exclusivo de segmentos (destacado acima).
 
