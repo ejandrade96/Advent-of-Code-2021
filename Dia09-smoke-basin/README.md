@@ -6,7 +6,7 @@ Se você puder modelar como a fumaça flui pelas cavernas, poderá evitá-la e f
 
 A fumaça flui para o ponto mais baixo da área em que está. Por exemplo, considere o seguinte mapa de altura:
 
-IMAGE
+![Captura de tela de 2021-12-21 16-42-23](https://user-images.githubusercontent.com/57911863/146988357-311858c8-c00d-4426-b43c-da9a35589cc1.png)
 
 Cada número corresponde à altura de um local específico, onde **9** é o mais alto e **0** é o mais baixo que um local pode ser.
 
@@ -19,4 +19,3 @@ O **nível de risco** de um ponto baixo é **1 mais sua altura**. No exemplo aci
 Encontre todos os pontos baixos em seu mapa de altura. **Qual é a soma dos níveis de risco de todos os pontos baixos em seu mapa de altura?**
 
 Para começar, **obtenha informações sobre o quebra-cabeça**. (path: Dados/input.txt)
-
