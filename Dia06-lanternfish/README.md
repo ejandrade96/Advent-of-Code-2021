@@ -30,7 +30,7 @@ Percebendo o que você está tentando fazer, o submarino produz automaticamente 
 
 Esta lista significa que o primeiro peixe tem um cronômetro interno de 3, o segundo peixe tem um cronômetro interno de 4e assim por diante até o quinto peixe, que tem um cronômetro interno de 2. Simular esses peixes ao longo de vários dias seria o seguinte:
 
-IMAGE
+![Captura de tela de 2021-12-21 13-33-54](https://user-images.githubusercontent.com/57911863/146967601-7f5e58ba-30b8-4e42-baa2-42eaaac2def3.png)
 
 A cada dia, a **0** torna - se um **6** e adiciona um novo **8** ao final da lista, enquanto cada número diminui em **1** se estiver presente no início do dia.
 
