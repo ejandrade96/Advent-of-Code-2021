@@ -4,7 +4,7 @@ Você se depara com um campo de **fontes hidrotermais** no fundo do oceano! Essa
 
 Eles tendem a se formar em **linhas**; o submarino produz uma lista de linhas de aberturas próximas (sua entrada no quebra-cabeça) para você revisar. Por exemplo:
 
-IMAGE
+![1](https://user-images.githubusercontent.com/57911863/146448770-34cb4439-59dd-4a97-a4fe-71ac098bd3b0.png)
 
 Cada linha de aberturas é dada como um segmento de linha no formato de **x1,y1 -> x2,y2** onde **x1,y1** são as coordenadas de uma extremidade do segmento de linha e x2, y2são as coordenadas da outra extremidade. Esses segmentos de linha incluem os pontos em ambas as extremidades. Em outras palavras:
 
@@ -16,7 +16,7 @@ Por enquanto, **considere apenas as linhas horizontais e verticais**: linhas ond
 
 Portanto, as linhas horizontais e verticais da lista acima produziriam o seguinte diagrama:
 
-IMAGE
+![2](https://user-images.githubusercontent.com/57911863/146448777-9739db04-b4e4-4fd2-9acb-bfce214ae436.png)
 
 Neste diagrama, o canto superior esquerdo é **0,0** e o canto inferior direito é **9,9**. Cada posição é mostrada como **o número de linhas que cobrem aquele ponto** ou **.** se nenhuma linha cobrir esse ponto. O par superior esquerdo de **1**s, por exemplo, vem de **2,2 -> 2,1**; a linha inferior é formada pelas linhas sobrepostas **0,9 -> 5,9** e **0,9 -> 2,9**.
 
