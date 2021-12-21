@@ -6,7 +6,7 @@ Eles tendem a se formar em **linhas**; o submarino produz uma lista de linhas de
 
 ![1](https://user-images.githubusercontent.com/57911863/146448770-34cb4439-59dd-4a97-a4fe-71ac098bd3b0.png)
 
-Cada linha de aberturas é dada como um segmento de linha no formato de **x1,y1 -> x2,y2** onde **x1,y1** são as coordenadas de uma extremidade do segmento de linha e x2, y2são as coordenadas da outra extremidade. Esses segmentos de linha incluem os pontos em ambas as extremidades. Em outras palavras:
+Cada linha de aberturas é dada como um segmento de linha no formato de **x1,y1 -> x2,y2** onde **x1,y1** são as coordenadas de uma extremidade do segmento de linha e **x2, y2** são as coordenadas da outra extremidade. Esses segmentos de linha incluem os pontos em ambas as extremidades. Em outras palavras:
 
 - Uma entrada como **1,1 -> 1,3** pontos tampas **1,1, 1,2, e 1,3**.
 
