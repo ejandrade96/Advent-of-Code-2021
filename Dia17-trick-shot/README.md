@@ -18,27 +18,27 @@ A **x,y** posição da sonda começa em **0,0**. Então, ele seguirá alguma tra
 
 Para que a sonda entre com sucesso na trincheira, ela deve estar em alguma trajetória que faça com que esteja dentro de uma **área alvo** após qualquer passo. O computador submarino já calculou esta área-alvo (sua entrada no quebra-cabeça). Por exemplo:
 
-image
+![1](https://user-images.githubusercontent.com/57911863/148652172-f5015faa-6683-4f45-a1c5-da66ff980ac3.png)
 
 Esta área de destino significa que você precisa encontrar os **x,y** valores de velocidade inicial de forma que, após qualquer etapa, a **x** posição da sonda seja no mínimo **20** e no máximo **30**, **e** a **y** posição da sonda seja no mínimo **-10** e no máximo **-5**.
 
 Dada esta área alvo, uma velocidade inicial que faz com que a sonda esteja dentro da área alvo após qualquer etapa é **7,2**:
 
-image
+![2](https://user-images.githubusercontent.com/57911863/148652179-99ed5063-58cb-4aec-9229-fd43806506f5.png)
 
 Neste diagrama, **S** é a posição inicial da sonda, **0,0**. A **x** coordenada aumenta para a direita e a **y** coordenada aumenta para cima. No canto inferior direito, as posições que estão dentro da área de destino são mostradas como **T**. Após cada etapa (até que a área alvo seja alcançada), a posição da sonda é marcada com **#.** (O canto inferior direito **#** é uma posição que a sonda atinge e uma posição na área de destino.)
 
 Outra velocidade inicial que faz com que a sonda esteja dentro da área alvo após qualquer etapa é **6,3**:
 
-image
+![3](https://user-images.githubusercontent.com/57911863/148652183-36e3b161-a5b8-4fe1-8642-9b7eff67790a.png)
 
 Outro é **9,0**:
 
-image
+![4](https://user-images.githubusercontent.com/57911863/148652187-e32a3e97-e97d-4bd6-ac89-793c5bffa3f9.png)
 
 Uma velocidade inicial que **não faz** com que a sonda fique dentro da área alvo após qualquer etapa é **17,-4**:
 
-image
+![5](https://user-images.githubusercontent.com/57911863/148652194-9b392e4d-7e4a-4005-9dd9-e2d79be6ab3b.png)
 
 A sonda parece passar pela área de destino, mas nunca está dentro dela após qualquer etapa. Em vez disso, ele continua para baixo e para a direita - apenas as primeiras etapas são mostradas.
 
