@@ -6,7 +6,7 @@ O manual do submarino contém instruções para encontrar a fórmula de polímer
 
 Por exemplo:
 
-image
+![1](https://user-images.githubusercontent.com/57911863/148649359-94302fe9-a6aa-416b-a1a2-2b909c43a269.png)
 
 A primeira linha é o **modelo de polímero** - este é o ponto de partida do processo.
 
@@ -26,7 +26,7 @@ Após a primeira etapa deste processo, o polímero torna-se **NCNBCHB**.
 
 Aqui estão os resultados de algumas etapas usando as regras acima:
 
-image
+![2](https://user-images.githubusercontent.com/57911863/148649360-f1d93522-5185-401f-a47e-fb6056556bef.png)
 
 Este polímero cresce rapidamente. Após a etapa 5, ele tem comprimento 97; Após a etapa 10, ele tem comprimento 3073. Após a etapa 10, **B** ocorre 1749 vezes, **C** ocorre 298 vezes, **H** ocorre 161 vezes e **N** ocorre 865 vezes; tomando a quantidade do elemento mais comum (**B**, 1749) e subtraindo a quantidade do elemento menos comum (**H**, 161) produz **1749 - 161 = 1588**.
 
