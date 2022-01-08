@@ -8,19 +8,19 @@ Felizmente, o submarino parece estar equipado com uma câmera térmica! Ao ativ�
 
 Aparentemente, os elfos nunca usaram esse recurso. Para sua surpresa, você conseguiu encontrar o manual; conforme você abre, a página 1 cai. É uma grande folha de **papel transparente**! O papel transparente é marcado com pontos aleatórios e inclui instruções sobre como dobrá-lo (sua entrada no quebra-cabeça). Por exemplo:
 
-image
+![1](https://user-images.githubusercontent.com/57911863/148648618-44fda5ec-e383-4717-8223-5a310b62df6b.png)
 
 A primeira seção é uma lista de pontos no papel transparente. **0,0** representa a coordenada superior esquerda. O primeiro valor, **x**, aumenta para a direita. O segundo valor, **y**, aumenta para baixo. Então, a coordenada **3,0** está à direita de **0,0**, e a coordenada **0,7** está abaixo **0,0**. As coordenadas neste exemplo formam o seguinte padrão, onde **#** é um ponto no papel e **.** é uma posição vazia e não marcada:
 
-image
+![2](https://user-images.githubusercontent.com/57911863/148648620-5053eda9-7ca2-4d72-9fef-5b8c45bfb2df.png)
 
 Em seguida, há uma lista de **instruções dobráveis**. Cada instrução indica uma linha no papel transparente e quer que você dobre o papel para **cima** (para **y=...** linhas horizontais) ou para a **esquerda** (para **x=...** linhas verticais). Neste exemplo, a primeira instrução de dobra é **fold along y=7**, que designa a linha formada por todas as posições onde **y** está **7** (marcada aqui com **-**):
 
-image
+![3](https://user-images.githubusercontent.com/57911863/148648624-5a722fd0-98eb-43a7-9da7-bc01ee4a71f7.png)
 
 Como esta é uma linha horizontal, dobre a metade inferior para **cima**. Alguns dos pontos podem acabar se sobrepondo após a dobra ser concluída, mas os pontos nunca aparecerão exatamente em uma linha de dobra. O resultado dessa dobra é o seguinte:
 
-image
+![4](https://user-images.githubusercontent.com/57911863/148648630-cbfbe7c1-a169-4283-8d80-524694f6656c.png)
 
 Agora, apenas os **17** pontos são visíveis.
 
@@ -30,11 +30,11 @@ Observe também que alguns pontos podem acabar se **sobrepondo**; neste caso, os
 
 A segunda instrução dobra é **fold along x=5**, que indica esta linha:
 
-image
+![5](https://user-images.githubusercontent.com/57911863/148648635-f18f1b37-7ffc-432a-96d1-eecfa5e150d6.png)
 
 Como esta é uma linha vertical, dobre para a **esquerda**:
 
-image
+![6](https://user-images.githubusercontent.com/57911863/148648636-a648cd2b-1226-44c7-924d-bb4354e1dacf.png)
 
 As instruções formaram um quadrado!
 
