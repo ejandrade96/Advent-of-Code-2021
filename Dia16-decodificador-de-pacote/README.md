@@ -6,7 +6,7 @@ A transmissão foi enviada usando o Buoyancy Interchange Transmission System (BI
 
 A primeira etapa da decodificação da mensagem é converter a representação hexadecimal em binária. Cada caractere de hexadecimal corresponde a quatro bits de dados binários:
 
-image
+![1](https://user-images.githubusercontent.com/57911863/148650442-dd5da8ab-eb60-45b8-940e-35a295d6b934.png)
 
 A transmissão do BITS contém um único **pacote** em sua camada mais externa, que por sua vez contém muitos outros pacotes. A representação hexadecimal desse pacote pode codificar alguns **0** bits extras no final; eles não fazem parte da transmissão e devem ser ignorados.
 
@@ -14,7 +14,7 @@ Cada pacote começa com um cabeçalho padrão: os primeiros três bits codificam
 
 Os pacotes com ID de tipo **4** representam um **valor literal**. Os pacotes de valor literal codificam um único número binário. Para fazer isso, o número binário é preenchido com zeros à esquerda até que seu comprimento seja um múltiplo de quatro bits e, em seguida, é dividido em grupos de quatro bits. Cada grupo é prefixado por um **1** bit, exceto o último grupo, que é prefixado por um **0** bit. Esses grupos de cinco bits seguem imediatamente o cabeçalho do pacote. Por exemplo, a string hexadecimal **D2FE28** torna-se:
 
-image
+![2](https://user-images.githubusercontent.com/57911863/148650444-5f65b7c4-1398-4836-88cb-89e69e897afc.png)
 
 Abaixo de cada bit está um rótulo indicando sua finalidade:
 
@@ -44,7 +44,7 @@ Finalmente, após o bit de ID do tipo de comprimento e o campo de 15-bit ou 11-b
 
 Por exemplo, aqui está um pacote de operador (string hexadecimal **38006F45291200**) com ID de tipo de comprimento **0** que contém dois subpacotes:
 
-image
+![3](https://user-images.githubusercontent.com/57911863/148650446-5aa40873-1ac1-4973-8aab-bb2ed2844107.png)
 
 - Os três bits marcados **V** (**001**) são a versão do pacote, **1**.
 
@@ -62,7 +62,7 @@ Após a leitura de 11 e 16 bits de dados de subpacote, o comprimento total indic
 
 Como outro exemplo, aqui está um pacote de operador (string hexadecimal **EE00D40C823060**) com ID de tipo de comprimento 1que contém três subpacotes:
 
-image
+![4](https://user-images.githubusercontent.com/57911863/148650449-7b0b8705-095b-435a-8169-284bec1b9960.png)
 
 - Os três bits marcados **V** (**111**) são a versão do pacote, **7**.
 
